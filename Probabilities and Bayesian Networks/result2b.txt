@@ -1,0 +1,55 @@
+Given string: CLCLCL
+Total length: 6
+Observation 1: C
+P(h1|C) = 0.20
+P(h2|C) = 0.30
+P(h3|C) = 0.40
+P(h4|C) = 0.10
+P(h5|C) = 0.00
+Probability that the next candy we pick will be C, given C : 0.65 
+Probability that the next candy we pick will be L, given C : 0.35 
+-----------------------------------------------------------------------------------
+Observation 2: CL
+P(h1|L) = 0.00
+P(h2|L) = 0.2142857
+P(h3|L) = 0.5714286
+P(h4|L) = 0.2142857
+P(h5|L) = 0.00
+Probability that the next candy we pick will be C, given L : 0.50 
+Probability that the next candy we pick will be L, given L : 0.50 
+-----------------------------------------------------------------------------------
+Observation 3: CLC
+P(h1|C) = 0.00
+P(h2|C) = 0.3214286
+P(h3|C) = 0.5714286
+P(h4|C) = 0.1071429
+P(h5|C) = 0.00
+Probability that the next candy we pick will be C, given C : 0.5535714 
+Probability that the next candy we pick will be L, given C : 0.4464286 
+-----------------------------------------------------------------------------------
+Observation 4: CLCL
+P(h1|L) = 0.00P(h2|L) = 0.18
+P(h3|L) = 0.64
+P(h4|L) = 0.18
+P(h5|L) = 0.00
+Probability that the next candy we pick will be C, given L : 0.50 
+Probability that the next candy we pick will be L, given L : 0.50 
+-----------------------------------------------------------------------------------
+Observation 5: CLCLC
+P(h1|C) = 0.00
+P(h2|C) = 0.27
+P(h3|C) = 0.64
+P(h4|C) = 0.09
+P(h5|C) = 0.00
+Probability that the next candy we pick will be C, given C : 0.545 
+Probability that the next candy we pick will be L, given C : 0.455 
+-----------------------------------------------------------------------------------
+Observation 6: CLCLCL
+P(h1|L) = 0.00
+P(h2|L) = 0.1483516
+P(h3|L) = 0.7032967
+P(h4|L) = 0.1483516
+P(h5|L) = 0.00
+Probability that the next candy we pick will be C, given L : 0.50 
+Probability that the next candy we pick will be L, given L : 0.50 
+-----------------------------------------------------------------------------------

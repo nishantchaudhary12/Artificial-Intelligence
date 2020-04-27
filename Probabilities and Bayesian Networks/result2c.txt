@@ -1,0 +1,56 @@
+Given string: CCCLLL
+Total length: 6
+Obsservation  1: C
+P(h1|C) = 0.20
+P(h2|C) = 0.30
+P(h3|C) = 0.40
+P(h4|C) = 0.10
+P(h5|C) = 0.00
+Probability that the next candy we pick will be C, given C : 0.65 
+Probability that the next candy we pick will be L, given C : 0.35 
+-----------------------------------------------------------------------------------
+Observation 2: CC
+P(h1|C) = 0.3076923
+P(h2|C) = 0.3461538
+P(h3|C) = 0.3076923
+P(h4|C) = 0.0384615
+P(h5|C) = 0.00
+Probability that the next candy we pick will be C, given C : 0.7307692 
+Probability that the next candy we pick will be L, given C : 0.2692308 
+-----------------------------------------------------------------------------------
+Observation 3: CCC
+P(h1|C) = 0.4210526
+P(h2|C) = 0.3552632
+P(h3|C) = 0.2105263
+P(h4|C) = 0.0131579
+P(h5|C) = 0.00
+Probability that the next candy we pick will be C, given C : 0.7960526 
+Probability that the next candy we pick will be L, given C : 0.2039474 
+*****************************************************************************************
+Observation  4: CCCL
+P(h1|L) = 0.00
+P(h2|L) = 0.4354839
+P(h3|L) = 0.5161290
+P(h4|L) = 0.0483871
+P(h5|L) = 0.00
+Probability that the next candy we pick will be C, given L : 0.5967742 
+Probability that the next candy we pick will be L, given L : 0.4032258 
+-----------------------------------------------------------------------------------
+Observation  5: CCCLL
+P(h1|L) = 0.00
+P(h2|L) = 0.27
+P(h3|L) = 0.64
+P(h4|L) = 0.09
+P(h5|L) = 0.00
+Probability that the next candy we pick will be C, given L : 0.545 
+Probability that the next candy we pick will be L, given L : 0.455 
+-----------------------------------------------------------------------------------
+Observation 6: CCCLLL
+P(h1|L) = 0.00
+P(h2|L) = 0.1483516
+P(h3|L) = 0.7032967
+P(h4|L) = 0.1483516
+P(h5|L) = 0.00
+Probability that the next candy we pick will be C, given L : 0.50
+Probability that the next candy we pick will be L, given L : 0.50
+-----------------------------------------------------------------------------------
